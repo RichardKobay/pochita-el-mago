@@ -16,11 +16,11 @@
             "scaleInEditor": 2
         },
         "Patterns/Looby.tmx": {
-            "scale": 3,
-            "selectedLayer": 2,
+            "scale": 2,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": 98.33333333333331,
-                "y": 69.66666666666666
+                "x": 130,
+                "y": 163.5
             }
         },
         "Patterns/a.tsx": {
@@ -42,11 +42,11 @@
         },
         "Patterns/e.tsx": {
             "dynamicWrapping": false,
-            "scaleInDock": 2,
+            "scaleInDock": 8,
             "scaleInEditor": 1
         },
         "Patterns/f.tsx": {
-            "scaleInDock": 1.5,
+            "scaleInDock": 0.75,
             "scaleInEditor": 1
         },
         "Patterns/g.tsx": {
@@ -72,7 +72,6 @@
     "map.tileWidth": 16,
     "map.width": 16,
     "openFiles": [
-        "Patterns/d.tsx",
         "Patterns/Looby.tmx",
         "Patterns/e.tsx",
         "Patterns/f.tsx",
@@ -80,11 +79,11 @@
     ],
     "project": "Tilemaps.tiled-project",
     "recentFiles": [
-        "Patterns/d.tsx",
         "Patterns/g.tsx",
         "Patterns/f.tsx",
         "Patterns/e.tsx",
         "Patterns/Looby.tmx",
+        "Patterns/d.tsx",
         "Patterns/c.tsx",
         "Patterns/b.tsx",
         "Patterns/a.tsx",
