@@ -5,8 +5,8 @@
     },
     "activeFile": "Patterns/Looby.tmx",
     "expandedProjectPaths": [
-        "Patterns",
-        "."
+        ".",
+        "Patterns"
     ],
     "exportAsImage.includeBackgroundColor": true,
     "file.lastUsedOpenFilter": "Todos los archivos (*)",
@@ -16,11 +16,11 @@
             "scaleInEditor": 2
         },
         "Patterns/Looby.tmx": {
-            "scale": 2,
-            "selectedLayer": 3,
+            "scale": 3,
+            "selectedLayer": 4,
             "viewCenter": {
-                "x": 130,
-                "y": 163.5
+                "x": 116.66666666666669,
+                "y": 130.66666666666669
             }
         },
         "Patterns/a.tsx": {
