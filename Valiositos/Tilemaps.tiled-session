@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "Patterns/Looby.tmx",
+    "activeFile": "Patterns/Secta.tmx",
     "expandedProjectPaths": [
         ".",
         "Patterns"
@@ -16,11 +16,19 @@
             "scaleInEditor": 2
         },
         "Patterns/Looby.tmx": {
-            "scale": 3,
-            "selectedLayer": 4,
+            "scale": 2,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 116.66666666666669,
-                "y": 130.66666666666669
+                "x": 128,
+                "y": 129
+            }
+        },
+        "Patterns/Secta.tmx": {
+            "scale": 2,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 132,
+                "y": 176
             }
         },
         "Patterns/a.tsx": {
@@ -60,11 +68,19 @@
         "Patterns/mapacito.tsx": {
             "scaleInDock": 11,
             "scaleInEditor": 1
+        },
+        "Patterns/naturaleza.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Patterns/piedras.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         }
     },
     "last.exportedFilePath": "C:/Users/Ivan/Documents/Proyecto GB/pochita-el-mago/Valiositos/Seleccion",
     "last.externalTilesetPath": "C:/Users/Ivan/Documents/Proyecto GB/pochita-el-mago/Valiositos/Patterns",
-    "last.imagePath": "C:/Users/Ivan/Documents/Proyecto GB/pochita-el-mago/Valiositos/Seleccion",
+    "last.imagePath": "C:/Users/glori/OneDrive/Documentos/Proyecto GB Studio/pochita-el-mago/Valiositos/Seleccion",
     "map.height": 16,
     "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
     "map.lastUsedFormat": "tmx",
@@ -75,21 +91,25 @@
         "Patterns/Looby.tmx",
         "Patterns/e.tsx",
         "Patterns/f.tsx",
-        "Patterns/g.tsx"
+        "Patterns/g.tsx",
+        "Patterns/Secta.tmx",
+        "Patterns/naturaleza.tsx",
+        "Patterns/piedras.tsx"
     ],
     "project": "Tilemaps.tiled-project",
     "recentFiles": [
-        "Patterns/g.tsx",
-        "Patterns/f.tsx",
-        "Patterns/e.tsx",
         "Patterns/Looby.tmx",
+        "Patterns/e.tsx",
+        "Patterns/f.tsx",
+        "Patterns/g.tsx",
+        "Patterns/piedras.tsx",
+        "Patterns/naturaleza.tsx",
+        "Patterns/Secta.tmx",
         "Patterns/d.tsx",
         "Patterns/c.tsx",
         "Patterns/b.tsx",
         "Patterns/a.tsx",
-        "Patterns/mapacito.tsx",
-        "Patterns/0x72_16x16DungeonTileset.v5.tsx",
-        "Patterns/general.tsx"
+        "Patterns/mapacito.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
