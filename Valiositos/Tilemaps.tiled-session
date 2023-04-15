@@ -3,10 +3,10 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "Patterns/Secta.tmx",
+    "activeFile": "Patterns/Looby.tmx",
     "expandedProjectPaths": [
-        ".",
-        "Patterns"
+        "Patterns",
+        "."
     ],
     "exportAsImage.includeBackgroundColor": true,
     "file.lastUsedOpenFilter": "Todos los archivos (*)",
@@ -15,20 +15,28 @@
             "scaleInDock": 8,
             "scaleInEditor": 2
         },
+        "Patterns/Invernadero.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 39.666666666666664,
+                "y": 76.66666666666667
+            }
+        },
         "Patterns/Looby.tmx": {
             "scale": 2,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 128,
-                "y": 129
+                "x": 126.5,
+                "y": 127.5
             }
         },
         "Patterns/Secta.tmx": {
             "scale": 2,
-            "selectedLayer": 5,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": 132,
-                "y": 176
+                "x": 170,
+                "y": 174.5
             }
         },
         "Patterns/a.tsx": {
@@ -76,6 +84,10 @@
         "Patterns/piedras.tsx": {
             "scaleInDock": 1,
             "scaleInEditor": 1
+        },
+        "Patterns/valla.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         }
     },
     "last.exportedFilePath": "C:/Users/Ivan/Documents/Proyecto GB/pochita-el-mago/Valiositos/Seleccion",
@@ -94,22 +106,24 @@
         "Patterns/g.tsx",
         "Patterns/Secta.tmx",
         "Patterns/naturaleza.tsx",
-        "Patterns/piedras.tsx"
+        "Patterns/piedras.tsx",
+        "Patterns/Invernadero.tmx",
+        "Patterns/valla.tsx"
     ],
     "project": "Tilemaps.tiled-project",
     "recentFiles": [
-        "Patterns/Looby.tmx",
-        "Patterns/e.tsx",
-        "Patterns/f.tsx",
-        "Patterns/g.tsx",
+        "Patterns/valla.tsx",
+        "Patterns/Invernadero.tmx",
         "Patterns/piedras.tsx",
         "Patterns/naturaleza.tsx",
         "Patterns/Secta.tmx",
+        "Patterns/g.tsx",
+        "Patterns/f.tsx",
+        "Patterns/e.tsx",
+        "Patterns/Looby.tmx",
         "Patterns/d.tsx",
         "Patterns/c.tsx",
-        "Patterns/b.tsx",
-        "Patterns/a.tsx",
-        "Patterns/mapacito.tsx"
+        "Patterns/b.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
