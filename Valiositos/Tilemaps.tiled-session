@@ -17,26 +17,26 @@
         },
         "Patterns/Invernadero.tmx": {
             "scale": 3,
-            "selectedLayer": 0,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": 39.33333333333333,
-                "y": 76.33333333333331
+                "x": 144.66666666666669,
+                "y": 135.66666666666666
             }
         },
         "Patterns/Looby.tmx": {
             "scale": 2,
-            "selectedLayer": 2,
+            "selectedLayer": 5,
             "viewCenter": {
-                "x": 125.5,
-                "y": 126.5
+                "x": 134,
+                "y": 133
             }
         },
         "Patterns/Secta.tmx": {
             "scale": 2,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 136,
-                "y": 128.25
+                "x": 135.5,
+                "y": 128
             }
         },
         "Patterns/a.tsx": {
