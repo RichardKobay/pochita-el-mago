@@ -3,10 +3,10 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "Patterns/Looby.tmx",
+    "activeFile": "Patterns/Secta.tmx",
     "expandedProjectPaths": [
-        ".",
-        "Patterns"
+        "Patterns",
+        "."
     ],
     "exportAsImage.includeBackgroundColor": true,
     "file.lastUsedOpenFilter": "Todos los archivos (*)",
@@ -33,10 +33,10 @@
         },
         "Patterns/Secta.tmx": {
             "scale": 2,
-            "selectedLayer": 3,
+            "selectedLayer": 1,
             "viewCenter": {
-                "x": 136,
-                "y": 128.25
+                "x": 209.5,
+                "y": 126.5
             }
         },
         "Patterns/a.tsx": {
@@ -112,15 +112,15 @@
     ],
     "project": "Tilemaps.tiled-project",
     "recentFiles": [
+        "Patterns/Looby.tmx",
+        "Patterns/e.tsx",
+        "Patterns/f.tsx",
+        "Patterns/g.tsx",
         "Patterns/valla.tsx",
         "Patterns/Invernadero.tmx",
         "Patterns/piedras.tsx",
         "Patterns/naturaleza.tsx",
         "Patterns/Secta.tmx",
-        "Patterns/g.tsx",
-        "Patterns/f.tsx",
-        "Patterns/e.tsx",
-        "Patterns/Looby.tmx",
         "Patterns/d.tsx",
         "Patterns/c.tsx",
         "Patterns/b.tsx"
