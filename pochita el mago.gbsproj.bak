@@ -1047,7 +1047,7 @@
             "autoFadeSpeed": 1,
             "id": "cae6b3db-4451-43a0-a4ec-dc4c23905d53",
             "symbol": "scene_1",
-            "x": 636.5337200912498,
+            "x": 635.4647573146581,
             "y": 273.37612431953653,
             "actors": [
                 {
@@ -1401,13 +1401,21 @@
                         ]
                     },
                     "id": "d5683f71-432a-45bd-98e0-5586a631ab3c"
+                },
+                {
+                    "command": "EVENT_ACTOR_SET_STATE",
+                    "args": {
+                        "actorId": "$self$",
+                        "spriteStateId": ""
+                    },
+                    "id": "6ce997ae-cab4-4851-9a9d-ac2c9f92d5ee"
                 }
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
             "playerSpriteSheetId": "b6f157b8-efa8-4506-9159-dc38e4c9a6e7",
-            "autoFadeEventCollapse": true
+            "autoFadeEventCollapse": false
         },
         {
             "name": "Prueba 2",
@@ -10052,122 +10060,21 @@
             "animSpeed": 15
         },
         {
-            "id": "e024ef3e-9eae-46ca-9267-3d6f010fea2a",
-            "name": "pochita (1)",
-            "symbol": "sprite_pochita_1_",
-            "numFrames": 12,
-            "type": "animated",
-            "filename": "pochita (1).png",
-            "checksum": "5f9cae30a3085075c617a15b3f2878f2a8557c0b",
-            "width": 192,
-            "height": 256,
-            "states": [
-                {
-                    "id": "b31a6d51-5d81-4d1d-bff3-afa9dde993d9",
-                    "name": "",
-                    "animationType": "multi_movement",
-                    "flipLeft": true,
-                    "animations": [
-                        {
-                            "id": "24a0641c-8762-4957-8539-799a4ed6c096",
-                            "frames": [
-                                {
-                                    "id": "cbc5df9f-50fe-4eda-bf0b-4f9eef43ae57",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "f6ea736d-f4c9-40b9-97d1-abd170b015b1",
-                            "frames": [
-                                {
-                                    "id": "b730f93c-a7e1-425c-8ada-7464cf24c6ec",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "3c31fdf9-bf11-4ddd-bd2a-cf2d894a7396",
-                            "frames": [
-                                {
-                                    "id": "dd9ff8a6-39f3-41ce-a208-93409e77dc25",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "1b78b9a4-55ac-45c4-9a07-ca733394e97a",
-                            "frames": [
-                                {
-                                    "id": "5841d9b5-f893-4bd1-9712-b79109b64598",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "925d8be9-43fa-4f77-b030-11be42d3b914",
-                            "frames": [
-                                {
-                                    "id": "c0c94338-806f-4c3b-9395-f5deb9dc8321",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "329c3b3b-0cbc-4948-ad41-412fb7136968",
-                            "frames": [
-                                {
-                                    "id": "ea913ccb-c4bd-4731-b4f2-d2152f4de361",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "99cc8bd1-f234-4fa5-b405-15fadbe2028f",
-                            "frames": [
-                                {
-                                    "id": "5fa5d96f-60ef-494d-8a9e-e7f986befc0a",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "e15068eb-71d6-44b7-923f-28ffd2b7e756",
-                            "frames": [
-                                {
-                                    "id": "378e58f4-3eed-419d-9060-d7e599f2c9fa",
-                                    "tiles": []
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "numTiles": 0,
-            "canvasWidth": 32,
-            "canvasHeight": 32,
-            "boundsX": 0,
-            "boundsY": 0,
-            "boundsWidth": 16,
-            "boundsHeight": 16,
-            "animSpeed": 15
-        },
-        {
             "id": "b6f157b8-efa8-4506-9159-dc38e4c9a6e7",
             "name": "pochita",
             "symbol": "sprite_pochita",
             "numFrames": 12,
             "type": "animated",
             "filename": "pochita.png",
-            "checksum": "0c4a169c6445df59f2b43ef37e956be02ea187fc",
+            "checksum": "12ac45e874befce0a35bb2e3189219a4150f5b1e",
             "width": 192,
-            "height": 128,
+            "height": 96,
             "states": [
                 {
                     "id": "7df5e1f6-0e46-4b86-94c1-3bc1f436bdcb",
                     "name": "",
                     "animationType": "multi_movement",
-                    "flipLeft": false,
+                    "flipLeft": true,
                     "animations": [
                         {
                             "id": "b260398d-e0ce-4c6d-a34c-e03bfc3ccb25",
@@ -14782,11 +14689,11 @@
     ],
     "settings": {
         "startSceneId": "cae6b3db-4451-43a0-a4ec-dc4c23905d53",
-        "startX": 13,
-        "startY": 22,
+        "startX": 19,
+        "startY": 23,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
-        "startDirection": "right",
+        "startDirection": "up",
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 1010,
