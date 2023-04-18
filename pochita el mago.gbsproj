@@ -3377,7 +3377,7 @@
                 0,
                 0,
                 0,
-                0,
+                15,
                 0,
                 15,
                 15,
@@ -4959,8 +4959,8 @@
             "autoFadeSpeed": 1,
             "id": "c9c48ca6-5bea-4115-94d2-60c667b53bfc",
             "symbol": "scene_7",
-            "x": 386.00000000000006,
-            "y": 322.33333333333326,
+            "x": 384.28571428571433,
+            "y": 321.7619047619047,
             "actors": [
                 {
                     "name": "llave 1 checkbox",
@@ -5140,6 +5140,216 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "playerSpriteSheetId": "b6f157b8-efa8-4506-9159-dc38e4c9a6e7"
+        },
+        {
+            "name": "Inicio",
+            "backgroundId": "e1ceb8c7-3b81-47b3-87dd-ae7f8f22eeaa",
+            "width": 32,
+            "height": 32,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "1ba3ce41-611b-428f-a92f-7177cc6c111b",
+            "symbol": "scene_8",
+            "x": 60,
+            "y": 550.8000000000003,
+            "actors": [
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "bcd6edc2-e2e0-43d0-a4af-c9b5fca0b9c1",
+                    "direction": "up",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_8",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "74f9a97a-6b48-4867-bc8c-1f2d46f36ba7",
+                    "x": 15,
+                    "y": 15
+                }
+            ],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_TEXT_SET_ANIMATION_SPEED",
+                    "args": {
+                        "speedIn": 1,
+                        "speedOut": 5,
+                        "speed": 2,
+                        "allowFastForward": true,
+                        "__collapse": true
+                    },
+                    "id": "face6f3f-2b0d-4a04-9d01-3f889a1df914"
+                },
+                {
+                    "command": "PT_EVENT_ADVANCED_DIALOGUE",
+                    "args": {
+                        "__scriptTabs": "text",
+                        "minHeight": 4,
+                        "maxHeight": 7,
+                        "position": "bottom",
+                        "showBorder": "true",
+                        "clearPrevious": true,
+                        "textX": 1,
+                        "textY": 1,
+                        "textHeight": 3,
+                        "closeWhen": "text",
+                        "closeButton": "a",
+                        "text": [
+                            "Inglaterra.  \n\n             1692."
+                        ],
+                        "avatarId": "",
+                        "__collapse": false
+                    },
+                    "id": "4502a91d-66df-4c57-9c7f-36e1085ab6ea"
+                },
+                {
+                    "command": "PT_EVENT_ADVANCED_DIALOGUE",
+                    "args": {
+                        "__scriptTabs": "text",
+                        "minHeight": 4,
+                        "maxHeight": 7,
+                        "position": "bottom",
+                        "showBorder": "true",
+                        "clearPrevious": true,
+                        "textX": 1,
+                        "textY": 1,
+                        "textHeight": 3,
+                        "closeWhen": "key",
+                        "closeButton": "a",
+                        "text": [
+                            "Pochita, el mago, \n\nes castigado ",
+                            "y puesto a prueba\n\npor el maestro \n\nMimagic "
+                        ],
+                        "avatarId": ""
+                    },
+                    "id": "0e03b573-be35-477e-919b-a1f64e5885f9"
+                },
+                {
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "b1b0c08d-d55e-499b-89bf-5565d31aef88",
+                        "x": 15,
+                        "y": 15,
+                        "direction": "left",
+                        "fadeSpeed": 1,
+                        "__collapse": false
+                    },
+                    "id": "04bc1f9b-869e-4ebd-87e7-dcb140d9881e"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
+        },
+        {
+            "name": "Inicio2",
+            "backgroundId": "d0e2013b-e8b0-4917-9389-4523414c60d2",
+            "width": 32,
+            "height": 32,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "b1b0c08d-d55e-499b-89bf-5565d31aef88",
+            "symbol": "scene_9",
+            "x": 365.6000000000001,
+            "y": 554.4000000000004,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_TEXT_SET_ANIMATION_SPEED",
+                    "args": {
+                        "speedIn": 1,
+                        "speedOut": 4,
+                        "speed": 2,
+                        "allowFastForward": true
+                    },
+                    "id": "c13a4dee-5202-4efc-80a9-e2e5f0f4996f"
+                },
+                {
+                    "command": "PT_EVENT_ADVANCED_DIALOGUE",
+                    "args": {
+                        "__scriptTabs": "text",
+                        "minHeight": 4,
+                        "maxHeight": 7,
+                        "position": "bottom",
+                        "showBorder": "true",
+                        "clearPrevious": true,
+                        "textX": 1,
+                        "textY": 1,
+                        "textHeight": 3,
+                        "closeWhen": "text",
+                        "closeButton": "a",
+                        "text": [
+                            "como consecuencia \n\nde su bajo  ",
+                            "rendimiento y \n\ndesinterés en el ",
+                            "instituto de \n\nmagia nacional ",
+                            "debido a que no \n\npueden ",
+                            "tolerar \n\nhechiceros \n\nmediocres por la ",
+                            "escasez que ha \n\nhabido de estos \n\nen Salem."
+                        ],
+                        "avatarId": "",
+                        "__collapse": false
+                    },
+                    "id": "9d8b2439-a439-4661-84a4-20f8e48e44cd"
+                },
+                {
+                    "command": "PT_EVENT_ADVANCED_DIALOGUE",
+                    "args": {
+                        "__scriptTabs": "text",
+                        "minHeight": 4,
+                        "maxHeight": 7,
+                        "position": "bottom",
+                        "showBorder": "true",
+                        "clearPrevious": true,
+                        "textX": 1,
+                        "textY": 1,
+                        "textHeight": 3,
+                        "closeWhen": "key",
+                        "closeButton": "a",
+                        "text": [
+                            "La sociedad de \n\nhechiceros ",
+                            "necesita de un \n\nfuturo seguro",
+                            "y de buenos magos\n\nque sostengan la ",
+                            "varita para \n\nmantener el legado."
+                        ],
+                        "avatarId": ""
+                    },
+                    "id": "7bdbad7a-ed65-4035-8907-11409fb50a3a"
+                },
+                {
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "443117f2-181d-4de6-98f9-910429ecc2da",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "2",
+                        "__collapse": true
+                    },
+                    "id": "7322ee0a-66a6-4641-a91b-ba8a56068c99"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": false
         }
     ],
     "backgrounds": [
@@ -8338,6 +8548,17 @@
             "tileColors": []
         },
         {
+            "id": "e1ceb8c7-3b81-47b3-87dd-ae7f8f22eeaa",
+            "name": "estrellas",
+            "symbol": "bg_estrellas",
+            "width": 32,
+            "height": 32,
+            "imageWidth": 256,
+            "imageHeight": 256,
+            "filename": "estrellas.png",
+            "tileColors": []
+        },
+        {
             "id": "7881fb6b-68c3-4c2b-bd44-cac8ec8682ae",
             "name": "inventario",
             "symbol": "bg_menu",
@@ -8708,6 +8929,17 @@
                 0,
                 0
             ]
+        },
+        {
+            "id": "d0e2013b-e8b0-4917-9389-4523414c60d2",
+            "name": "mimagicFace",
+            "symbol": "bg_stars",
+            "width": 32,
+            "height": 32,
+            "imageWidth": 256,
+            "imageHeight": 256,
+            "filename": "mimagicFace.png",
+            "tileColors": []
         },
         {
             "id": "7b136bca-1673-478d-89e9-e38ca1c78996",
@@ -12268,6 +12500,134 @@
             "boundsY": 0,
             "boundsWidth": 16,
             "boundsHeight": 24,
+            "animSpeed": 15
+        },
+        {
+            "id": "bcd6edc2-e2e0-43d0-a4af-c9b5fca0b9c1",
+            "name": "mimagic_cara",
+            "symbol": "sprite_mimagic_cara",
+            "numFrames": 4,
+            "type": "animated",
+            "filename": "mimagic_cara.png",
+            "checksum": "7c63e6cb210e299f15a2603ea8ac232f97d68b62",
+            "width": 64,
+            "height": 80,
+            "states": [
+                {
+                    "id": "a46f0358-34cf-4a8e-8568-32c0a2bbbcd2",
+                    "name": "",
+                    "animationType": "fixed",
+                    "flipLeft": true,
+                    "animations": [
+                        {
+                            "id": "8dc6364e-83c2-45d8-874f-161803193a01",
+                            "frames": [
+                                {
+                                    "id": "19d417e2-7eb8-43f9-9931-d44e904997b9",
+                                    "tiles": [
+                                        {
+                                            "id": "01ca722a-2a23-4fb2-a28b-6fb01dfe8d48",
+                                            "x": 26,
+                                            "y": 7,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "788649e2-eb9e-4eb7-98ca-282689c9754d",
+                                            "x": -24,
+                                            "y": 64,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "d2cc4524-d9a7-41a7-bbb6-356e8c181c04",
+                            "frames": [
+                                {
+                                    "id": "3f84b95c-1820-4b29-a2f2-23a165d36d6e",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "7ae25dbe-81dc-4a04-96ca-5622c38b22e7",
+                            "frames": [
+                                {
+                                    "id": "21bf7887-037c-4efa-97a6-99b6db1f911e",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "76d59576-8542-4121-b683-e52f570b0e17",
+                            "frames": [
+                                {
+                                    "id": "19919e32-8765-4a35-8ace-fc48b2ab1973",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "de4a2b56-1b5b-422f-bfb4-dca518bef9f3",
+                            "frames": [
+                                {
+                                    "id": "29569dbb-04d1-4cda-9c5e-ba4ebfd95559",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "2ffab26b-4256-4642-bdb6-6d3909f0935f",
+                            "frames": [
+                                {
+                                    "id": "ce334eeb-9969-41b8-becb-e553e6e4d002",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "37d4c250-a0a2-4319-a255-a54b1e5514a0",
+                            "frames": [
+                                {
+                                    "id": "9dd34f45-3e05-44ee-b894-b1f5d2899f79",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "d48f29d9-7717-4d8b-8b18-867b66e8e7c2",
+                            "frames": [
+                                {
+                                    "id": "715ea94a-298b-40e4-a997-79d1aeb73623",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 0,
+            "canvasWidth": 64,
+            "canvasHeight": 80,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 0,
+            "boundsHeight": 0,
             "animSpeed": 15
         },
         {
@@ -16253,17 +16613,17 @@
         }
     ],
     "settings": {
-        "startSceneId": "cae6b3db-4451-43a0-a4ec-dc4c23905d53",
-        "startX": 15,
-        "startY": 27,
+        "startSceneId": "1ba3ce41-611b-428f-a92f-7177cc6c111b",
+        "startX": 0,
+        "startY": 0,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "up",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2490,
-        "worldScrollY": 975,
-        "zoom": 275,
+        "worldScrollX": 0,
+        "worldScrollY": 200,
+        "zoom": 125,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
@@ -16291,8 +16651,8 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            471,
-            135,
+            720,
+            206,
             30
         ],
         "showNavigator": true,
