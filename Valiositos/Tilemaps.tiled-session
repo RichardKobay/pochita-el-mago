@@ -19,24 +19,24 @@
             "scale": 3,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 144.66666666666669,
-                "y": 135.33333333333331
+                "x": 121.16666666666666,
+                "y": 127.83333333333333
             }
         },
         "Patterns/Looby.tmx": {
             "scale": 2,
             "selectedLayer": 5,
             "viewCenter": {
-                "x": 133,
-                "y": 132
+                "x": 128,
+                "y": 127.75
             }
         },
         "Patterns/Secta.tmx": {
             "scale": 2,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 209.5,
-                "y": 126.5
+                "x": 136,
+                "y": 128.25
             }
         },
         "Patterns/a.tsx": {
